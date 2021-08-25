@@ -66,3 +66,5 @@ def op():
 B3 = Button(window,text = 'open', font = ('LED',10,'bold'))
 B3.pack(side = RIGHT)
 B3.config(command = op)
+
+window.mainloop()
